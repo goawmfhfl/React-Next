@@ -3,7 +3,6 @@
 import propTypes from 'prop-types';
 import Link from 'next/link';
 import { Input, Menu, Row, Col} from 'antd';
-
 const onSearch = value => console.log(value);
 
 const AppLayout = ({ children }) => {
@@ -38,10 +37,9 @@ const AppLayout = ({ children }) => {
                     {children}
                 </Col>
                 <Col xs={24} md={6}>
-                    <a href="" target="_blank" rel="noreferrer noopener">BLOG</a>
+                    <a href="https://blog.naver.com/goawmfhfl1" target="_blank" rel="noreferrer noopener">BLOG</a>
                 </Col>
             </Row>
-            {children}
         </div>
 
     )
